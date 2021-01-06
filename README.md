@@ -1,4 +1,4 @@
-# Sprint Monetizer Web App
+# Social Interests Monetizer
 
 natural collaboration engine / social monetization protocol - PoC
 
