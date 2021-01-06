@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <div class="logo">
-      <router-link to="/">Time Monetizer</router-link>
+      <router-link to="/">Sprint Monetizer</router-link>
     </div>
     <nav>
       <ul>

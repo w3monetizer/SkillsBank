@@ -1,4 +1,4 @@
-# Time Monetizer Web App
+# Sprint Monetizer Web App
 
 natural collaboration engine / social monetization protocol - PoC
 
