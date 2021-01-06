@@ -1,4 +1,4 @@
-# Tech Monetizer Web App
+# Terra Monetizer Web App
 
 natural collaboration engine / social monetization protocol - PoC
 

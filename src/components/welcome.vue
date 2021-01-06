@@ -1,9 +1,9 @@
 <template>
   <div id="welcome">
     <p>
-      <a href="https://TeamMonetizer.web.app/" title="Team Interests Monetizer"> team </a> 
-      <a href="https://SIMonetizer.web.app/" title="Social Interests Monetizer"> social </a>
+      <a href="https://TeamMonetizer.web.app/" title="Team Interests Monetizer"> team </a>
       <a href="https://TerraMonetizer.web.app/" title="Terra Interests Monetizer"> terra </a>
+      <a href="https://SIMonetizer.web.app/" title="Social Interests Monetizer"> social </a>
       <a href="https://devMonetizer.web.app/" title="Devs Interests Monetizer"> dev </a>
       <a href="https://w3Monetizer.web.app/" title="W3 Monetizer"> web </a>
       <a href="https://DevEngineXL.web.app/" title="DevOps XL Engine"> office </a>
