@@ -1068,7 +1068,7 @@ export default {
       opsNameId: 1,
       backgroundText: `&nbsp;Soc&nbsp; &#x2731 &nbsp;Dev &nbsp;&#x2731&nbsp; Ops
             <br><br>
-            &nbsp;recombinant &nbsp;repos`,
+            &nbsp;recombinant &nbsp;cloud`,
       liveText: `&nbsp; cash =&nbsp;dev&nbsp;&#x2731 ops
             <br><br>
             terra winwin engine`,
