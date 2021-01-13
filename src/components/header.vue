@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <div class="logo">
-      <router-link to="/">Iantas Roles AI</router-link>
+      <router-link to="/">Roles Monetizer</router-link>
     </div>
     <nav>
       <ul>

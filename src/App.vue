@@ -1269,9 +1269,9 @@ on world's most interesting projects.`,
       ],
       matrixOps: matrixOps(),
       newDevPosts: [
-        "Funding: 5min innovation engine install",
+        "Funding: 5min monetization engine install",
         "Voting: Chinese & Hindi innovation engine",
-        "Idea: Job posts as innovation demand",
+        "Role: FinTech PM Cloud Investment 200k NY",
       ],
       newOpsPosts: [
         "COM: xl cash = meta AI/ML/Kubernetes",
