@@ -1,4 +1,4 @@
-# Universal Social Monetizer
+# Universal Roles/Skills Monetizer
 
 natural collaboration engine / social monetization protocol - PoC
 
