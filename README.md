@@ -1,4 +1,4 @@
-# Universal Roles/Skills Monetizer
+# Universal Roles Monetizer App
 
 natural collaboration engine / social monetization protocol - PoC
 
