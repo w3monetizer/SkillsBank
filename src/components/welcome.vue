@@ -11,7 +11,7 @@
       <a href="https://TimeMonetizers.web.app/" title="Time Monetizers"> monetizer </a>
       <a href="https://SprintMonetizer.web.app/" title="Sprint Monetizer"> engine </a>
       </p>
-    <h1>my roles @ AI speed</h1>
+    <h1>my Roles @ AI speed</h1>
     <p><span class="red-text">socialize</span> > <span class="yellow-text">innovate</span> > <span class="blue-text">monetize</span> 24/7 - 3rd gen DNA OS</p>
     <div class="cta">
       <router-link to="/signup">Sign Up</router-link>
