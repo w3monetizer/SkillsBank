@@ -76,7 +76,7 @@
               <div class="title news-scroller" contenteditable="true">
                 <ul class="scroller">
                   <li
-                    v-for="(title, devPostId) in newDevPosts.slice(0, 3)"
+                    v-for="(title, devPostId) in newDevPosts.slice(newDevPostsIndex % 9, 3 + newDevPostsIndex % 9)"
                     v-bind:key="devPostId"
                   >
                     {{ title }}
@@ -1268,10 +1268,20 @@ on world's most interesting projects.`,
         ],
       ],
       matrixOps: matrixOps(),
+      newDevPostsIndex: 0,
       newDevPosts: [
         "Funding: 5min monetization engine install",
         "Voting: Chinese & Hindi innovation engine",
         "Role: FinTech PM Cloud Investment 200k NY",
+        "FinTech: Universal Computational Currency",
+        "Eco: Global Natural Energy Currency $ATP",
+        "Education: New Online Education Platform",
+        "Tech: Realtime Cloud colab Protocol W3AI",
+        "Job: AWS API Gateway Architect 300k SF",
+        "Hackathon: MS Teams App development Feb8",
+        "Hackathon: Postman API Hack Jan 5 - 25",
+        "Conference: Postman Galaxy Feb 2 - 4",
+        "PitchAThon: yCombinator - xMonetizer 21"
       ],
       newOpsPosts: [
         "COM: xl cash = meta AI/ML/Kubernetes",
@@ -1420,6 +1430,7 @@ on world's most interesting projects.`,
       this.nextService();
       // this.readService();
       this.matrixEditId++;
+      this.newDevPostsIndex++;
       this.matrixEdit = matrixEdit()[this.matrixEditId % matrixEdit().length];
       this.cellToEdit = this.matrixEdit[0][0]; // Show text / file from cell //
     },
