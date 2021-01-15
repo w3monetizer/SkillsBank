@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <div class="logo">
-      <router-link to="/">Roles Monetizer</router-link>
+      <router-link to="/">coMonetizer</router-link>
     </div>
     <nav>
       <ul>
