@@ -4,12 +4,12 @@
       <a href="https://TeamMonetizer.web.app/" title="Team Interests Monetizer"> team </a>
       <a href="https://TerraMonetizer.web.app/" title="Terra Interests Monetizer"> terra </a>
       <a href="https://SIMonetizer.web.app/" title="Social Interests Monetizer"> social </a>
-      <a href="https://devMonetizer.web.app/" title="Devs Interests Monetizer"> dev </a>
       <a href="https://w3Monetizer.web.app/" title="W3 Monetizer"> web </a>
-      <a href="https://DevEngineXL.web.app/" title="DevOps XL Engine"> office </a>
-      <a href="https://TechMonetizer.web.app/" title="Tech Monetizer"> cloud </a>
+      <a href="https://JobsMonetizer.web.app/" title="Jobs Monetizer"> jobs </a>
+      <a href="https://OfficeMonetizer.web.app/" title="Office Monetizer"> office </a>
+      <a href="https://CouldMonetizer.web.app/" title="Cloud Monetizer"> cloud </a>
+      <a href="https://SprintMonetizer.web.app/" title="Sprint Monetizer"> sprint </a>
       <a href="https://TimeMonetizers.web.app/" title="Time Monetizers"> monetizer </a>
-      <a href="https://SprintMonetizer.web.app/" title="Sprint Monetizer"> engine </a>
       </p>
     <h1>Monetize @ AI speed</h1>
     <p><span class="red-text">socialize</span> > <span class="yellow-text">combine</span> > <span class="blue-text">monetize</span> 24/7 - 3rd gen DNA OS</p>
