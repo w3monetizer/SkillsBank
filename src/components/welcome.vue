@@ -9,7 +9,7 @@
       <a href="https://OfficeMonetizer.web.app/" title="Office Monetizer"> office </a>
       <a href="https://CouldMonetizer.web.app/" title="Cloud Monetizer"> cloud </a>
       <a href="https://SprintMonetizer.web.app/" title="Sprint Monetizer"> sprint </a>
-      <a href="https://TimeMonetizers.web.app/" title="Time Monetizers"> monetizer </a>
+      <a href="https://ProMonetizer.web.app/" title="Pro Monetizer"> monetizer </a>
       </p>
     <h1>Monetize @ AI speed</h1>
     <p><span class="red-text">socialize</span> > <span class="yellow-text">combine</span> > <span class="blue-text">monetize</span> 24/7 - 3rd gen DNA OS</p>
