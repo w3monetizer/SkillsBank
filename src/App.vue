@@ -10,7 +10,6 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="title-container" >
             <div class="header-group titles">
-              <!-- <div><img id="logo" src="./assets/amp-logo.png"></div> -->
               <div contenteditable="true">
                 <h1 class="long">{{ team.title }}&nbsp;</h1>
                 <h1 class="short">{{ team.titleShort }}&nbsp;</h1>

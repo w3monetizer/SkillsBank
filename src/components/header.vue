@@ -1,12 +1,12 @@
 <template>
   <header id="header">
-    <div class="logo">
-      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png"></router-link>
+    <div class="left">
+      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">CO</router-link>
     </div>
     <div class="center">
       <router-link to="/">Monetizer</router-link>
     </div>
-    <nav>
+    <nav class="right">
       <ul>
         <li v-if="!auth">
           <router-link to="/signup">sign up</router-link>
@@ -57,29 +57,39 @@ export default {
   margin-bottom: 22px;
 }
 
-.logo {
-  font-size: 70px;
+.left {
+  width: 33%;
+  font-size: 73px;
   font-weight: bold;
   color: white;
   cursor: pointer;
 }
 
-.logo a {
+.left a {
   text-decoration: none;
   color: white;
 }
 
 .center {
+  text-align: center;
+  width: 33%;
   font-size: 73px;
   font-weight: bold;
   color: white;
   cursor: pointer;
-  margin-left: 7rem;
+  /* margin-left: 7rem; */
 }
 
 .center a {
   text-decoration: none;
   color: white;
+}
+
+.right {
+  width: 33%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end ;
 }
 
 nav {
