@@ -1,7 +1,10 @@
 <template>
   <header id="header">
     <div class="logo">
-      <router-link to="/">coMonetizer</router-link>
+      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png"></router-link>
+    </div>
+    <div class="center">
+      <router-link to="/">Monetizer</router-link>
     </div>
     <nav>
       <ul>
@@ -42,10 +45,16 @@ export default {
   height: 56px;
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: space-between ;
   align-items: center;
   background-color: #6aa84f;
   padding: 0 20px 1px 20px;
+}
+
+#logo {
+  height: 56px;
+  width: 56px;
+  margin-bottom: 22px;
 }
 
 .logo {
@@ -56,6 +65,19 @@ export default {
 }
 
 .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.center {
+  font-size: 73px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-left: 7rem;
+}
+
+.center a {
   text-decoration: none;
   color: white;
 }
