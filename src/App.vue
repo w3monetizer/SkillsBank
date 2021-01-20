@@ -1233,11 +1233,19 @@ github.com/ai-accelerator`,
       matrixEditId: 0,
       matrixEdit: matrixEdit()[0],
       rowRoll: 0,
-      cellToEdit: `# Super Productivity App
+      cellToEdit: `# Global Opportunities Monetizer
 
-Add ideas and projects to trigger contributors worldwide.
-Or monetize your services
-on world's most interesting projects.`,
+coMonetizer is a 
+Cloud Functions Monetization Engine
+designed to empower 1 Billion students
+professionals and entrepreneurs with office accounts
+to monetize their skills and services 24/7
+as simple as editing spreadsheets.
+
+Join us to
+Collaborate, Innovate & Make Money 24/7 at AI Speed 
+on your own Service Monetization Engine  at 
+https://github.com/w3monetizer`,
       matrixBiz: matrixBiz(),
       listDev: [
         // list/rows of posts, docs, links, obj, etc from matrixDev
