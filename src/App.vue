@@ -792,10 +792,10 @@
                       : ''
                   "
                 >
-                  <a href="https://github.com/terra-os" target="_blank"
-                    >Clone Terra Cloud Engine @github.com/terra-os</a
+                  <a href="https://github.com/w3monetizer" target="_blank"
+                    >Clone your coMonetization Engine &</a
                   ><br />
-                  & Build your own 24/7 Monetized Skills/Services
+                  Build your always on Skills/Services
                 </div>
                 <iframe
                   id="view-link"
