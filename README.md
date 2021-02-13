@@ -1,4 +1,4 @@
-# Universal Monetizer App
+# Full Stack Social Monetizer App
 
 natural collaboration engine / social monetization protocol - PoC
 
