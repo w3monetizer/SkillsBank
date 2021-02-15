@@ -1,10 +1,10 @@
 <template>
   <header id="header">
     <div class="left">
-      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">AGILE</router-link>
+      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">TECH</router-link>
     </div>
     <div class="center">
-      <router-link to="/">Monetizer</router-link>
+      <router-link to="/">MONEY MAKER</router-link>
     </div>
     <nav class="right">
       <ul>

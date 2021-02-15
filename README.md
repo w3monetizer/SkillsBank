@@ -1,4 +1,4 @@
-# Agile Money Maker App
+# Tech Money Maker App
 
 natural collaboration engine / social monetization protocol - PoC
 
