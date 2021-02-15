@@ -1,4 +1,4 @@
-# Tech Money Maker App
+# Tech & Office Money Maker App
 
 natural collaboration engine / social monetization protocol - PoC
 
