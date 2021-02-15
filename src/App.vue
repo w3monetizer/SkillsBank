@@ -1070,7 +1070,7 @@ export default {
             &nbsp;recombinant &nbsp;cloud`,
       liveText: `&nbsp; biz &#x2731 &nbsp; dev &nbsp; &#x2731 ops
             <br><br>
-            cloud fx engine`,
+            cloud f(x) engine`,
       devText: `&nbsp; $ECO &nbsp; &nbsp; DNA &nbsp;&nbsp; RNA
       <br><br>
       best &nbsp;practices &nbsp;AI`,
