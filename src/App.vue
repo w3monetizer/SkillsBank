@@ -1068,7 +1068,7 @@ export default {
       backgroundText: `&nbsp;Soc&nbsp; &#x2731 &nbsp;Dev &nbsp;&#x2731&nbsp; Ops
             <br><br>
             &nbsp;recombinant &nbsp;cloud`,
-      liveText: `&nbsp; biz &nbsp; dev &nbsp;&#x2731 ops
+      liveText: `&nbsp; biz &#x2731 &nbsp; dev &nbsp; &#x2731 ops
             <br><br>
             cloud fx engine`,
       devText: `&nbsp; $ECO &nbsp; &nbsp; DNA &nbsp;&nbsp; RNA
