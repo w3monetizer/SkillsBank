@@ -1,4 +1,4 @@
-# Fair Money Making Blockchains
+# Fair Web Monetization App
 
 natural collaboration engine / social monetization protocol - PoC
 
