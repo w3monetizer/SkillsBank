@@ -4,7 +4,7 @@
       <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">fair</router-link>
     </div>
     <div class="center">
-      <router-link to="/">MONEY MAKER</router-link>
+      <router-link to="/">Monetizer</router-link>
     </div>
     <nav class="right">
       <ul>
