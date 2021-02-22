@@ -12,7 +12,7 @@
       <a href="https://ProMonetizer.web.app/" title="Pro Monetizer"> monetizer </a>
       </p>
     <h1>Team build @ AI speed</h1>
-    <p><span class="red-text">socialize</span> > <span class="yellow-text">innovate</span> > <span class="blue-text">monetize</span> 24/7 - 3rd gen DNA OS</p>
+    <p><span class="red-text">socialize</span> >> <span class="yellow-text">innovate</span> >> <span class="blue-text">monetize</span> 24/7 - 3rd gen. DNA OS</p>
     <div class="cta">
       <router-link to="/signup">Sign Up</router-link>
       <router-link to="/signin">Sign In</router-link>
