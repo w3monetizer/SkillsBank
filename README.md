@@ -1,4 +1,4 @@
-# Fair Web Monetization App
+# ES Team Builder App
 
 natural collaboration engine / social monetization protocol - PoC
 

@@ -1,10 +1,10 @@
 <template>
   <header id="header">
     <div class="left">
-      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">fair</router-link>
+      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">ES Team Build</router-link>
     </div>
     <div class="center">
-      <router-link to="/">Monetizer</router-link>
+      <router-link to="/"></router-link>
     </div>
     <nav class="right">
       <ul>
