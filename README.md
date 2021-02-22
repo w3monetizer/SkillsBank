@@ -1,4 +1,4 @@
-# Tech & Office Money Maker App
+# Fair Money Making Blockchains
 
 natural collaboration engine / social monetization protocol - PoC
 
