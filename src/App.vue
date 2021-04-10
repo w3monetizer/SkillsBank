@@ -1040,7 +1040,7 @@ export default {
       timeUnit: ["sec", "min"],
       timeUnitId: 0,
       view: ["soc", "dev", "biz"],
-      viewId: 0,
+      // viewId: 0,
       socialView: ["xls", "mix", "fb"],
       socialViewId: 1,
       sheetView: false,
@@ -1316,6 +1316,9 @@ https://github.com/w3monetizer`,
     }
   },
   computed: {
+    viewId() {
+      return this.$store.getters.viewId;
+    },
     pause() {
       return this.$store.getters.isPaused;
     },

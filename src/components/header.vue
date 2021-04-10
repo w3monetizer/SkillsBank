@@ -8,7 +8,7 @@
       ">{{ $store.getters.isPaused ? 'Jobs' : 'AI' }}</span></router-link>
     </div>
     <div class="center">
-      <router-link to="/">Innovator</router-link>
+      <router-link to="/"><span @click="$store.commit('nextView')">{{ $store.getters.view }}</span></router-link>
     </div>
     <nav class="right">
       <ul>
