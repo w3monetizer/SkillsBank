@@ -1,7 +1,11 @@
 <template>
   <header id="header">
     <div class="left">
-      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">Jobs</router-link>
+      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png"><span @click="
+      $store.getters.isPaused ?
+      $store.commit('togglePause',{value:false,src:'header'}):
+      $store.commit('togglePause',{value:true,src:'header'})
+      ">{{ $store.getters.isPaused ? 'Jobs' : 'AI' }}</span></router-link>
     </div>
     <div class="center">
       <router-link to="/">Innovator</router-link>
@@ -31,11 +35,14 @@ export default {
     auth() {
       return this.$store.getters.isAuthenticated;
     },
+    isPaused() {
+      return this.$store.getters.isPaused;
+    }
   },
   methods: {
     onLogout() {
       this.$store.dispatch("logout");
-    },
+    }
   },
 };
 </script>

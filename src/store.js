@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-console */
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from './axios-auth'  // for REST into Firebase auth
@@ -13,9 +15,17 @@ export default new Vuex.Store({
   state: {
     idToken: null,
     userId: null,
-    user: null
+    user: null,
+    pause: true,
+    pauseSrc: undefined,
+    states: ['Innovator', 'Automator', 'Monetizer'],
+    stateIndex: 0
   },
   mutations: {
+    togglePause(state, params) {
+      state.pause = params.value;
+      state.pauseSrc = params.src;
+    },
     authUser (state, userData) {
       state.idToken = userData.token
       state.userId = userData.userId
@@ -172,6 +182,12 @@ export default new Vuex.Store({
     // }
   },
   getters: {
+    isPaused(state) {
+      return state.pause;
+    },
+    pauseSrc(state) {
+      return state.pauseSrc;
+    },
     user (state) {
       return state.user
     },

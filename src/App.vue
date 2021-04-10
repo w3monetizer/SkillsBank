@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable no-console */
 /* eslint-disable no-console */ /* eslint-disable no-console */
 <template>
   <div id="app">
@@ -5,7 +7,7 @@
 
     <router-view></router-view>
 
-    <div class="container-fluid" :class="[viewId % view.length == 2 ? 'max-width-33' : '' ]">
+    <div class="container-fluid" :class="[viewId % view.length == 0 ? 'max-width-33' : '' ]">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="title-container" >
@@ -71,7 +73,7 @@
               </div>-->
             </div>
 
-            <div class="header-group devNews" :class="[viewId % view.length == 2 ? 'min-width-66' : '' ]">
+            <div class="header-group devNews" :class="[viewId % view.length == 0 ? 'min-width-66' : '' ]">
               <div class="title news-scroller" contenteditable="true">
                 <ul class="scroller">
                   <li
@@ -90,7 +92,7 @@
               </div>
             </div>
 
-            <div class="header-group opsNews" v-if="viewId % view.length != 2">
+            <div class="header-group opsNews" v-if="viewId % view.length != 0">
               <div class="title long">
                 <h2>{{ team.newOpsTitle }}</h2>
               </div>
@@ -110,7 +112,7 @@
             </div>
           </div>
 
-          <div id="flags" v-if="viewId % view.length != 2">
+          <div id="flags" v-if="viewId % view.length != 0">
             <div v-for="index in 6" :key="index">
               <img
                 class="flag"
@@ -122,7 +124,7 @@
           </div>
 
           <div id="ai-protocol" v-if="viewId % view.length != 1">
-            <div id="ai-prog" v-if="viewId % view.length != 2">
+            <div id="ai-prog" v-if="viewId % view.length != 0">
               <div class="buttons">
                 <button
                   class="next btn btn-warning"
@@ -256,7 +258,7 @@
               </div>
             </div>
 
-            <div id="ai-jobs" :class="[viewId % view.length == 2 ? 'min-width-900' : '' ]">
+            <div id="ai-jobs" :class="[viewId % view.length == 0 ? 'min-width-900' : '' ]">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextProject">
                   Projects
@@ -492,7 +494,7 @@
               </div>
             </div>
 
-            <div id="ai-ops" v-if="viewId % view.length != 2">
+            <div id="ai-ops" v-if="viewId % view.length != 0">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextService">
                   Services
@@ -697,13 +699,13 @@
             <!-- </div> -->
           </div>
 
-          <div class="background-signs" v-if="viewId % view.length != 2">
+          <div class="background-signs" v-if="viewId % view.length != 0">
             <p>
               <span v-html="backgroundText"></span>
             </p>
           </div>
 
-          <div id="editor" v-if="viewId % view.length != 2">
+          <div id="editor" v-if="viewId % view.length != 0">
             <div class="buttons">
               <div>
                 <h2 class="title">
@@ -875,7 +877,7 @@
             </div>
           </div>
 
-          <div id="footer" v-if="viewId % view.length != 2">
+          <div id="footer" v-if="viewId % view.length != 0">
             <div id="ai-engines" class="title-container">
               <h4>
                 <a href="https://ai-cell.web.app">CEO</a>
@@ -1037,8 +1039,8 @@ export default {
       cycleId: 1,
       timeUnit: ["sec", "min"],
       timeUnitId: 0,
-      view: ["biz", "dev", "soc"],
-      viewId: 2,
+      view: ["soc", "dev", "biz"],
+      viewId: 0,
       socialView: ["xls", "mix", "fb"],
       socialViewId: 1,
       sheetView: false,
@@ -1076,7 +1078,7 @@ export default {
       best &nbsp;practices &nbsp;AI`,
       visibleRows: 1,
       tab: ["0", "0", "0"],
-      pause: true,
+      // pause: true,
       show: true,
       load: true,
       rules: ["FAST"],
@@ -1297,7 +1299,26 @@ https://github.com/w3monetizer`,
       ],
     };
   },
+  watch: {
+    pause(value) {
+      if (!value && this.$store.getters.pauseSrc === 'header') {
+        // eslint-disable-next-line no-console
+        console.log(
+          'starting now'
+        )
+        this.start();
+      } 
+      if (value && this.$store.getters.pauseSrc === 'header') {
+        // eslint-disable-next-line no-console
+        console.log('stopping now')
+        this.stop();
+      }
+    }
+  },
   computed: {
+    pause() {
+      return this.$store.getters.isPaused;
+    },
     devPosts: function () {
       return this.matrixDev.filter((row) => row[1] === "Post");
     },
@@ -1425,7 +1446,8 @@ https://github.com/w3monetizer`,
     },
 
     start() {
-      this.pause = false;
+      // this.pause = false;
+      this.$store.commit('togglePause',{value:false, src:'app'})
       this.interval = setInterval(this.play, this.speed);
       this.backgroundText = this.liveText;
     },
@@ -1442,7 +1464,8 @@ https://github.com/w3monetizer`,
       this.cellToEdit = this.matrixEdit[0][0]; // Show text / file from cell //
     },
     stop() {
-      this.pause = true;
+      // this.pause = true;
+      this.$store.commit('togglePause', {value:true,src:'app'});
       clearInterval(this.interval);
       this.backgroundText = this.devText;
     },
