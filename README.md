@@ -1,4 +1,4 @@
-# ES Team Builder App
+# My Jobs AI App
 
 natural collaboration engine / social monetization protocol - PoC
 

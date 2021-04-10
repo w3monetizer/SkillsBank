@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <div class="left">
-      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">ES Team Build</router-link>
+      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">my Jobs AI</router-link>
     </div>
     <div class="center">
       <router-link to="/"></router-link>
