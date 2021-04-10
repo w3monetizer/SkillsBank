@@ -1,10 +1,10 @@
 <template>
   <header id="header">
     <div class="left">
-      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">my Jobs AI</router-link>
+      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png">Jobs</router-link>
     </div>
     <div class="center">
-      <router-link to="/"></router-link>
+      <router-link to="/">Innovator</router-link>
     </div>
     <nav class="right">
       <ul>
