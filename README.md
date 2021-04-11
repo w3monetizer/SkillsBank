@@ -1,4 +1,4 @@
-# My Jobs AI App
+# My Agile AI App
 
 natural collaboration engine / social monetization protocol - PoC
 
