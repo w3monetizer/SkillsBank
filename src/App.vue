@@ -1488,7 +1488,7 @@ https://github.com/w3monetizer`,
       this.readService();
 
       // dev dummy animation
-      if (this.viewId % this.view.length == 0) {
+      if (this.viewId % this.view.length == 2) {
         this.setCellAndColor("d-table", 2, 2, "ok", "project-color");
         this.setCellAndColor("o-table", 2, 2, "ok", "service-color");
         this.setCellAndColor("b-table", 2, 11, "ok", "service-color");
