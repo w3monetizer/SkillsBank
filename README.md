@@ -1,4 +1,4 @@
-# My Agile AI App
+# My Open/AI Ideator, Automator, Monetizer App
 
 natural collaboration engine / social monetization protocol - PoC
 
