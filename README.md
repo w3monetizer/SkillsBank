@@ -1,4 +1,4 @@
-# My Open/AI Ideator, Automator, Monetizer App
+# My Business/AI Ideator, Automator, Monetizer
 
 natural collaboration engine / social monetization protocol - PoC
 
