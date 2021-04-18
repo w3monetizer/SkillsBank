@@ -1,6 +1,4 @@
 /* eslint-disable no-console */
-/* eslint-disable no-console */
-/* eslint-disable no-console */ /* eslint-disable no-console */
 <template>
   <div id="app">
     <app-header />
@@ -494,7 +492,7 @@
               </div>
             </div>
 
-            <div id="ai-ops" v-if="viewId % view.length != 0">
+            <div id="ai-ops" v-if="viewId % view.length != 1">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextService">
                   Services
