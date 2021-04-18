@@ -71,7 +71,7 @@
               </div>-->
             </div>
 
-            <div class="header-group devNews" :class="[viewId % view.length == 0 ? 'min-width-66' : '' ]">
+            <div class="header-group devNews" :class="[viewId % view.length == 0 ? 'min-width-33' : '' ]">
               <div class="title news-scroller" contenteditable="true">
                 <ul class="scroller">
                   <li
@@ -90,7 +90,7 @@
               </div>
             </div>
 
-            <div class="header-group opsNews" v-if="viewId % view.length != 0">
+            <div class="header-group opsNews" :class="[viewId % view.length == 0 ? 'min-width-33' : '' ]">
               <div class="title long">
                 <h2>{{ team.newOpsTitle }}</h2>
               </div>
@@ -1851,6 +1851,10 @@ html {
 
 .max-width-33 {
   max-width: 33.33%;
+}
+
+.min-width-33 {
+  min-width: 33.33%;
 }
 
 .min-width-66 {
