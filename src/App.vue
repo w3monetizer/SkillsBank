@@ -8,7 +8,7 @@
     <div class="container-fluid" :class="[viewId % view.length == 0 ? 'max-width-66' : '' ]">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <div class="title-container" :class="[viewId % view.length == 0 ? 'max-width-66' : '' ]">
+          <div class="title-container" >
             <div class="header-group titles">
               <div contenteditable="true">
                 <h1 class="long">{{ team.title }}&nbsp;</h1>
@@ -256,7 +256,7 @@
               </div>
             </div>
 
-            <div id="ai-jobs" :class="[viewId % view.length == 0 ? 'min-width-450' : '' ]">
+            <div id="ai-jobs" :class="[viewId % view.length == 0 ? 'min-width-50' : '' ]">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextProject">
                   Projects
@@ -492,7 +492,7 @@
               </div>
             </div>
 
-            <div id="ai-ops" :class="[viewId % view.length == 0 ? 'min-width-450' : '' ]">
+            <div id="ai-ops" :class="[viewId % view.length == 0 ? 'min-width-50' : '' ]">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextService">
                   Services
@@ -1853,6 +1853,10 @@ html {
   max-width: 33.33%;
 }
 
+.max-width-66 {
+  max-width: 66.66%;
+}
+
 .min-width-33 {
   min-width: 33.33%;
 }
@@ -1861,8 +1865,8 @@ html {
   min-width: 66.66%;
 }
 
-.min-width-450 {
-  min-width: 450px;
+.min-width-50 {
+  min-width: 50%;
 }
 
 .container-fluid {
