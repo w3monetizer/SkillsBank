@@ -8,7 +8,7 @@
     <div class="container-fluid" :class="[viewId % view.length == 0 ? 'max-width-66' : '' ]">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <div class="title-container" >
+          <div class="title-container" :class="[viewId % view.length == 0 ? 'max-width-66' : '' ]">
             <div class="header-group titles">
               <div contenteditable="true">
                 <h1 class="long">{{ team.title }}&nbsp;</h1>
