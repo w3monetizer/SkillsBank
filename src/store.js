@@ -19,12 +19,16 @@ export default new Vuex.Store({
     pause: true,
     pauseSrc: undefined,
     view: ['Innovator', 'Automator', 'Monetizer'],
-    viewId: 0
+    viewId: 0,
+    actionCall: ['Ideate', 'Automate', 'Monetize'],
+    actionCallId: 0
   },
   mutations: {
     nextView(state) {
       state.viewId++;
+      state.actionCallId++;
       state.viewId = state.viewId % state.view.length;
+      state.actionCallId = state.actionCallId % state.actionCall.length;
     },
     togglePause(state, params) {
       state.pause = params.value;
@@ -186,6 +190,9 @@ export default new Vuex.Store({
     // }
   },
   getters: {
+    actionCall(state) {
+      return state.actionCall[state.actionCallId];
+    },
     view(state) {
       return state.view[state.viewId];
     },

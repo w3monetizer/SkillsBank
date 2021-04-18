@@ -11,7 +11,7 @@
       <a href="https://SprintMonetizer.web.app/" title="Sprint Monetizer"> sprint </a>
       <a href="https://ProMonetizer.web.app/" title="Pro Monetizer"> monetizer </a>
       </p>
-    <h1>Innovate @ AI speed</h1>
+    <h1><span title="Ideate > Automate > Monetize" @click="$store.commit('nextView')">{{ $store.getters.actionCall }}</span> @ AI speed</h1>
     <p><span class="red-text">socialize</span> >> <span class="yellow-text">innovate</span> >> <span class="blue-text">monetize</span> 24/7 - 3rd gen. DNA OS</p>
     <div class="cta">
       <router-link to="/signup">Sign Up</router-link>
