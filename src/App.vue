@@ -5,7 +5,7 @@
 
     <router-view></router-view>
 
-    <div class="container-fluid" :class="[viewId % view.length == 0 ? 'max-width-33' : '' ]">
+    <div class="container-fluid" :class="[viewId % view.length == 0 ? 'max-width-66' : '' ]">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="title-container" >
@@ -256,7 +256,7 @@
               </div>
             </div>
 
-            <div id="ai-jobs" :class="[viewId % view.length == 0 ? 'min-width-900' : '' ]">
+            <div id="ai-jobs" :class="[viewId % view.length == 0 ? 'min-width-450' : '' ]">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextProject">
                   Projects
@@ -492,7 +492,7 @@
               </div>
             </div>
 
-            <div id="ai-ops" v-if="viewId % view.length != 1">
+            <div id="ai-ops" :class="[viewId % view.length == 0 ? 'min-width-450' : '' ]">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextService">
                   Services
@@ -1857,8 +1857,8 @@ html {
   min-width: 66.66%;
 }
 
-.min-width-900 {
-  min-width: 900px;
+.min-width-450 {
+  min-width: 450px;
 }
 
 .container-fluid {
