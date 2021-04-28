@@ -1,4 +1,4 @@
-# My Business/AI Ideator, Automator, Monetizer
+# EPMO AI Innovator, Automator, Monetizer
 
 natural collaboration engine / social monetization protocol - PoC
 
