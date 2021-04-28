@@ -1,4 +1,4 @@
-# EPMO AI Innovator, Automator, Monetizer
+# Skills AI Innovator, Automator, Monetizer
 
 natural collaboration engine / social monetization protocol - PoC
 
