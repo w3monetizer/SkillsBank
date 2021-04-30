@@ -1,4 +1,4 @@
-# Skills AI Innovator, Automator, Monetizer
+# TechPM / AI Innovator, Automator, Monetizer
 
 natural collaboration engine / social monetization protocol - PoC
 

@@ -6,7 +6,7 @@
       $store.commit('togglePause',{value:false,src:'header'}):
       $store.commit('togglePause',{value:true,src:'header'})
       "
-      title="Skills / AI">{{ $store.getters.isPaused ? 'Skills' : 'AI' }}</span></router-link>
+      title="TPM / AI">{{ $store.getters.isPaused ? 'Tech PM' : 'AI' }}</span></router-link>
     </div>
     <div class="center">
       <router-link to="/"><span title="Ideator > Automator > Monetizer" @click="$store.commit('nextView')">{{ $store.getters.view }}</span></router-link>
