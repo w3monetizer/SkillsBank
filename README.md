@@ -1,4 +1,4 @@
-# TechPM / AI Innovator, Automator, Monetizer
+# Agile \* AI Innovator, Automator, Monetizer Engine
 
 natural collaboration engine / social monetization protocol - PoC
 
