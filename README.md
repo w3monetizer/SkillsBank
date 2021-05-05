@@ -1,4 +1,4 @@
-# Agile \* AI Innovator, Automator, Monetizer Engine
+# Growth x AI Innovator, Automator, Monetizer Engine
 
 natural collaboration engine / social monetization protocol - PoC
 
