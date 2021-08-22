@@ -1,4 +1,4 @@
-# iLike - AI Innovator, Automator, Monetizer Engine
+# Success AI - Skills Monetization Engine
 
 natural collaboration engine / social monetization protocol - PoC
 
