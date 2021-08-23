@@ -8,8 +8,8 @@
               ? $store.commit('togglePause', { value: false, src: 'header' })
               : $store.commit('togglePause', { value: true, src: 'header' })
           "
-          title="TPM AI"
-          >{{ $store.getters.isPaused ? 'iTPM' : 'AI' }}</span
+          title="SME AI"
+          >{{ $store.getters.isPaused ? 'SME' : 'AI' }}</span
         ></router-link
       >
     </div>
