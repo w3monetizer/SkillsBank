@@ -1,4 +1,4 @@
-# Success AI - Skills Monetization Engine
+# TPM AI - Tech Skills Monetization Engine
 
 natural collaboration engine / social monetization protocol - PoC
 
