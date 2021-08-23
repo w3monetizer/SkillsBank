@@ -1,15 +1,26 @@
 <template>
   <header id="header">
     <div class="left">
-      <router-link to="/"><img id="logo" src="../assets/icon_154-white.png"><span @click="
-      $store.getters.isPaused ?
-      $store.commit('togglePause',{value:false,src:'header'}):
-      $store.commit('togglePause',{value:true,src:'header'})
-      "
-      title="iLike | AI">{{ $store.getters.isPaused ? 'iLike' : 'AI' }}</span></router-link>
+      <router-link to="/"
+        ><img id="logo" src="../assets/icon_154-white.png" /><span
+          @click="
+            $store.getters.isPaused
+              ? $store.commit('togglePause', { value: false, src: 'header' })
+              : $store.commit('togglePause', { value: true, src: 'header' })
+          "
+          title="Success AI"
+          >{{ $store.getters.isPaused ? 'Success' : 'AI' }}</span
+        ></router-link
+      >
     </div>
     <div class="center">
-      <router-link to="/"><span title="Ideator > Automator > Monetizer" @click="$store.commit('nextView')">{{ $store.getters.view }}</span></router-link>
+      <router-link to="/"
+        ><span
+          title="Ideator > Automator > Monetizer"
+          @click="$store.commit('nextView')"
+          >{{ $store.getters.view }}</span
+        ></router-link
+      >
     </div>
     <nav class="right">
       <ul>
@@ -34,18 +45,18 @@
 export default {
   computed: {
     auth() {
-      return this.$store.getters.isAuthenticated;
+      return this.$store.getters.isAuthenticated
     },
     isPaused() {
-      return this.$store.getters.isPaused;
-    }
+      return this.$store.getters.isPaused
+    },
   },
   methods: {
     onLogout() {
-      this.$store.dispatch("logout");
-    }
+      this.$store.dispatch('logout')
+    },
   },
-};
+}
 </script>
 
 <style scoped>
@@ -53,7 +64,7 @@ export default {
   height: 56px;
   display: flex;
   flex-flow: row;
-  justify-content: space-between ;
+  justify-content: space-between;
   align-items: center;
   background-color: #6aa84f;
   padding: 0 20px 1px 20px;
@@ -97,7 +108,7 @@ export default {
   width: 33%;
   display: flex;
   flex-flow: row;
-  justify-content: flex-end ;
+  justify-content: flex-end;
 }
 
 nav {
