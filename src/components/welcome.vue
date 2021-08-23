@@ -1,18 +1,46 @@
 <template>
   <div id="welcome">
     <p>
-      <a href="https://TeamMonetizer.web.app/" title="Team Interests Monetizer"> team </a>
-      <a href="https://TerraMonetizer.web.app/" title="Terra Interests Monetizer"> terra </a>
-      <a href="https://SIMonetizer.web.app/" title="Social Interests Monetizer"> social </a>
+      <a href="https://TeamMonetizer.web.app/" title="Team Interests Monetizer">
+        team
+      </a>
+      <a
+        href="https://TerraMonetizer.web.app/"
+        title="Terra Interests Monetizer"
+      >
+        terra
+      </a>
+      <a href="https://SIMonetizer.web.app/" title="Social Interests Monetizer">
+        social
+      </a>
       <a href="https://w3Monetizer.web.app/" title="W3 Monetizer"> web </a>
       <a href="https://JobsMonetizer.web.app/" title="Jobs Monetizer"> jobs </a>
-      <a href="https://OfficeMonetizer.web.app/" title="Office Monetizer"> office </a>
-      <a href="https://CouldMonetizer.web.app/" title="Cloud Monetizer"> cloud </a>
-      <a href="https://SprintMonetizer.web.app/" title="Sprint Monetizer"> sprint </a>
-      <a href="https://ProMonetizer.web.app/" title="Pro Monetizer"> monetizer </a>
-      </p>
-    <h1><span title="Ideate > Automate > Monetize" @click="$store.commit('nextView')">{{ $store.getters.actionCall }}</span> @ AI speed</h1>
-    <p><span class="red-text">socialize</span> >> <span class="yellow-text">innovate</span> >> <span class="blue-text">monetize</span> 24/7 - 3rd gen. DNA OS</p>
+      <a href="https://OfficeMonetizer.web.app/" title="Office Monetizer">
+        office
+      </a>
+      <a href="https://CouldMonetizer.web.app/" title="Cloud Monetizer">
+        cloud
+      </a>
+      <a href="https://SprintMonetizer.web.app/" title="Sprint Monetizer">
+        sprint
+      </a>
+      <a href="https://ProMonetizer.web.app/" title="Pro Monetizer">
+        monetizer
+      </a>
+    </p>
+    <h1>
+      <span
+        title="Ideate > Automate > Monetize"
+        @click="$store.commit('nextView')"
+        >{{ $store.getters.actionCall }}</span
+      >
+      @ AI speed
+    </h1>
+    <p>
+      <span class="red-text">innovate</span> >>
+      <span class="yellow-text">automate</span> >>
+      <span class="blue-text">monetize</span> 24/7 - 3rd gen. DNA OS
+    </p>
     <div class="cta">
       <router-link to="/signup">Sign Up</router-link>
       <router-link to="/signin">Sign In</router-link>
