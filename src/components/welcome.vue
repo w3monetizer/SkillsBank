@@ -37,7 +37,7 @@
       @ AI speed
     </h1>
     <p>
-      <span class="red-text">innovate</span> >>
+      <span class="red-text">ideate</span> >>
       <span class="yellow-text">automate</span> >>
       <span class="blue-text">monetize</span> 24/7 - 3rd gen. DNA OS
     </p>
