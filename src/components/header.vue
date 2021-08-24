@@ -9,7 +9,7 @@
               : $store.commit('togglePause', { value: true, src: 'header' })
           "
           title="Skills Monetization Engine"
-          >{{ $store.getters.isPaused ? 'Skills' : 'AI' }}</span
+          >{{ $store.getters.isPaused ? 'TPM' : 'AI' }}</span
         ></router-link
       >
     </div>

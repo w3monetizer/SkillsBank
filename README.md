@@ -1,4 +1,4 @@
-# SME AI - Skills Monetization Engine
+# TPM AI - Skills Monetization Engine
 
 natural collaboration engine / social monetization protocol - PoC
 
