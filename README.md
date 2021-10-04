@@ -1,4 +1,4 @@
-# TPM AI - Skills Monetization Engine
+# BigData TechPM - Skills Monetization Engine
 
 natural collaboration engine / social monetization protocol - PoC
 
