@@ -1,4 +1,4 @@
-# BigData TechPM - Skills Monetization Engine
+# Skills Bank 24/7 - Skills Monetization Engine
 
 natural collaboration engine / social monetization protocol - PoC
 
